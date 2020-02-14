@@ -1,0 +1,201 @@
+/*------------------------------------------- */
+
+/*basic setup*/
+
+/*Orange #e67e22*/
+
+/*------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: "lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.icon-small {
+  color: #e67e22;
+  display: inline-block;
+  width: 8%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/*---------------------------------------*/
+/*LINK*/
+/*---------------------------------------*/
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #e67e22;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  transition: color 0.5s;
+}
+
+/*---------------------------------------*/
+/*HEADER*/
+/*---------------------------------------*/
+
+.hero-image{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+  url("../../manhattan-336708_1920.jpg");
+   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 30vh;
+}
+
+h1,
+h2 {
+  font-size: 240%;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  word-spacing: 4px;
+}
+h2 {
+  font-size: 200%;
+  text-align: center;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  padding: 1%;
+}
+
+/*---------------------------------------*/
+/*LINK*/
+/*---------------------------------------*/
+.news img{
+  height: 200px ;
+}
+
+/*-----------PARAGRAPH------------*/
+
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+/*-------------icon big---------------*/
+.icon-big {
+  font-size: 400%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
+
+.logo {
+  height: 140px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+
+/*---------------------------------------*/
+/*NAVIGATION*/
+/*---------------------------------------*/
+
+.section-fixed-nav {
+  margin: 0px;
+  padding: 0px;
+  background-color: #562d5d;
+
+}
+.fixed-nav {
+  margin: 12px 0;
+  text-align: center;
+
+}
+
+.fixed-nav li {
+  margin: 12px 14px;
+  display: inline;
+  font-size: 32px;
+}
+
+
+/*---------------------------------------*/
+/*Footer*/
+/*---------------------------------------*/
+
+footer {
+  background-color: #562d5d;
+  padding: 20px;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+
+footer p {
+  color: #888;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 35px;
+}
+
